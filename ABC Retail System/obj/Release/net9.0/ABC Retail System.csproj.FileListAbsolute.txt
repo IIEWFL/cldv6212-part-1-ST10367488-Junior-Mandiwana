@@ -1,0 +1,111 @@
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\bin\Release\net9.0\appsettings.Development.json
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\bin\Release\net9.0\appsettings.json
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\bin\Release\net9.0\ABC Retail System.staticwebassets.runtime.json
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\bin\Release\net9.0\ABC Retail System.staticwebassets.endpoints.json
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\bin\Release\net9.0\ABC Retail System.exe
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\bin\Release\net9.0\ABC Retail System.deps.json
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\bin\Release\net9.0\ABC Retail System.runtimeconfig.json
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\bin\Release\net9.0\ABC Retail System.dll
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\bin\Release\net9.0\ABC Retail System.pdb
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\bin\Release\net9.0\Azure.Core.dll
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\bin\Release\net9.0\Azure.Data.Tables.dll
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\bin\Release\net9.0\Azure.Storage.Blobs.dll
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\bin\Release\net9.0\Azure.Storage.Common.dll
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\bin\Release\net9.0\Azure.Storage.Files.Shares.dll
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\bin\Release\net9.0\Azure.Storage.Queues.dll
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\bin\Release\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\bin\Release\net9.0\System.ClientModel.dll
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\bin\Release\net9.0\System.IO.Hashing.dll
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\bin\Release\net9.0\System.Memory.Data.dll
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\ABC Retail System.csproj.AssemblyReference.cache
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\ABC Retail System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\ABC Retail System.AssemblyInfoInputs.cache
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\ABC Retail System.AssemblyInfo.cs
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\ABC Retail System.csproj.CoreCompileInputs.cache
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\ABC Retail System.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\ABC Retail System.RazorAssemblyInfo.cache
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\ABC Retail System.RazorAssemblyInfo.cs
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\ABC Retail System.sourcelink.json
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\scopedcss\bundle\ABC Retail System.styles.css
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\scopedcss\projectbundle\ABC Retail System.bundle.scp.css
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\z07o1iqxpa-b9sayid5wm.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\iwpxfguiux-61n19gt1b8.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\cish3dvcwg-xtxxf3hu2r.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\8m8v80jqge-bqjiyaj88i.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\t5a6x68in0-c2jlpeoesf.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\q55fqhermq-erw9l3u2r3.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\812ragdzka-aexeepp0ev.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\ouk4584xzt-d7shbmvgxk.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\2mq8wpxm0a-ausgxo2sd3.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\2qeeo5k0ky-k8d9w2qqmf.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\vdt3j3exkk-cosvhxvwiu.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\444oe7aqwe-ub07r2b239.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\uzvk0b5r54-fvhpjtyr6v.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\7ifhrn833m-b7pk76d08c.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\ud56w35za3-fsbi9cje9m.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\fnjgrzp2gh-rzd6atqjts.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\vcib0rx39c-ee0r1s7dh0.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\hcy4wd6lox-dxx9fxp4il.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\fz07xelzzg-jd9uben2k1.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\f8l2m3bg9t-khv3u5hwcm.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\cpm0fhcrjd-r4e9w2rdcm.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\eiz3isswp2-lcd1t2u6c8.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\mdvsgog20f-c2oey78nd0.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\4usgat5rcd-tdbxkamptv.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\fhjr4tzxvq-j5mq2jizvt.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\9p5gxovl0k-06098lyss8.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\9hkadbve6j-nvvlpmu67g.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\wi5pi6yomg-s35ty4nyc5.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\bpjxahtz56-pj5nd1wqec.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\hm67znd90f-46ein0sx1k.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\u2p5g6tr55-v0zj4ognzu.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\g5ke5pnpmp-37tfw0ft22.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\mnqz18lo2q-hrwsygsryq.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\gg08djmcy5-pk9g2wxc8p.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\5rkhp1vrr3-ft3s53vfgj.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\dr1lgk9wx6-6cfz1n2cew.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\xlxl8o1fcg-6pdc2jztkx.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\l1hd0108st-493y06b0oq.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\cbz5itcwnk-iovd86k7lj.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\5ga70ka6yh-vr1egmr9el.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\a6nc3fnrl0-kbrnm935zg.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\56xpev1lxz-jj8uyg4cgr.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\yojsc5k6w3-y7v9cxd14o.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\34ls9v4cxy-notf2xhcfb.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\hz7xqdbcwd-h1s4sie4z3.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\vpcfhqep0o-63fj8s7r0e.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\qgff66ammi-0j3bgjxly4.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\1w2gvobhww-47otxtyo56.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\rvrud4z15b-4v8eqarkd7.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\6tsodzqjw2-356vix0kms.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\ink7m3dqfk-83jwlth58m.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\03p1kqz4iq-mrlpezrjn3.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\rr7d5u23n1-lzl9nlhx6b.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\kktt6vxzem-ag7o75518u.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\luny6fsm0l-x0q3zqp4vz.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\nixbe4erne-0i3buxo5is.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\zoh0qr22uu-o1o13a6vjx.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\ueaa6foebn-ttgo8qnofa.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\pqmn73q5tm-2z0ns9nrw6.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\3kabs27gmu-muycvpuwrr.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\oqh6eqlxhp-87fc7y1x7t.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\d9rzkkz7l1-mlv21k5csn.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\vhxe28gtqd-x2a992oze0.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\compressed\s4oiafsrms-x2a992oze0.gz
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\staticwebassets.build.json
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\staticwebassets.development.json
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\staticwebassets\msbuild.ABC Retail System.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\staticwebassets\msbuild.ABC Retail System.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\staticwebassets\msbuild.build.ABC Retail System.props
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\staticwebassets\msbuild.buildMultiTargeting.ABC Retail System.props
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\staticwebassets\msbuild.buildTransitive.ABC Retail System.props
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\staticwebassets.pack.json
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\ABC Reta.D4C4B737.Up2Date
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\ABC Retail System.dll
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\refint\ABC Retail System.dll
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\ABC Retail System.pdb
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\ABC Retail System.genruntimeconfig.cache
+C:\Users\Maseo Junior\Desktop\cldv6212-part-1-ST10367488-Junior-Mandiwana\ABC Retail System\obj\Release\net9.0\ref\ABC Retail System.dll

@@ -139,9 +139,29 @@ namespace ABC_Retail_System.Services
             }
         }
 
-        internal async Task<IEnumerable> GetProductsAsync()
+        public async Task<string> ListAllProductsForDebug()
         {
-            throw new NotImplementedException();
+            var products = await GetAllAsync();
+            if (products == null || !products.Any())
+                return "No products found in the database.\n";
+
+            var result = new System.Text.StringBuilder();
+            result.AppendLine("Products in database:");
+            result.AppendLine("-------------------");
+            
+            foreach (var product in products)
+            {
+                result.AppendLine($"ID: {product.RowKey}");
+                result.AppendLine($"Name: {product.ProductName}");
+                result.AppendLine($"Price: {product.Price:C}");
+                result.AppendLine($"Stock: {product.StockQuantity}");
+                result.AppendLine($"Brand: {product.Brand}");
+                result.AppendLine($"Color: {product.Colour}");
+                result.AppendLine($"Size: {product.Size}");
+                result.AppendLine("-------------------");
+            }
+            
+            return result.ToString();
         }
     }
 }

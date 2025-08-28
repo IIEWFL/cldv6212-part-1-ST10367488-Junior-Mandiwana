@@ -12,9 +12,28 @@ namespace ABC_Retail_System.Services.Storage
 
         public TableStorageService(string storageConnectionString, string tableName)
         {
-            var serviceClient = new TableServiceClient(storageConnectionString);
-            _tableClient = serviceClient.GetTableClient(tableName);
-            _tableClient.CreateIfNotExists();
+            try
+            {
+                Console.WriteLine($"[DEBUG] Initializing TableStorageService for table: {tableName}");
+                var serviceClient = new TableServiceClient(storageConnectionString);
+                _tableClient = serviceClient.GetTableClient(tableName);
+                
+                // Create the table if it doesn't exist
+                var response = _tableClient.CreateIfNotExists();
+                Console.WriteLine($"[DEBUG] Table {tableName} exists or was created: {response != null}");
+                
+                // Log the table URI for verification
+                Console.WriteLine($"[DEBUG] Table URI: {_tableClient.Uri}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"[ERROR] Error initializing TableStorageService: {ex.Message}");
+                if (ex.InnerException != null)
+                {
+                    Console.WriteLine($"[ERROR] Inner exception: {ex.InnerException.Message}");
+                }
+                throw;
+            }
         }
 
         // Generic methods for any entity type
@@ -60,13 +79,32 @@ namespace ABC_Retail_System.Services.Storage
 
         public async Task AddEntityAsync<T>(T entity) where T : ITableEntity
         {
-            if (string.IsNullOrEmpty(entity.PartitionKey))
-                entity.PartitionKey = typeof(T).Name.ToUpper();
+            try
+            {
+                Console.WriteLine($"[DEBUG] Adding entity to table {_tableClient.Name}:");
+                Console.WriteLine($"[DEBUG] Type: {typeof(T).Name}");
+                
+                if (string.IsNullOrEmpty(entity.PartitionKey))
+                    entity.PartitionKey = typeof(T).Name.ToUpper();
 
-            if (string.IsNullOrEmpty(entity.RowKey))
-                entity.RowKey = Guid.NewGuid().ToString();
+                if (string.IsNullOrEmpty(entity.RowKey))
+                    entity.RowKey = Guid.NewGuid().ToString();
 
-            await _tableClient.AddEntityAsync(entity);
+                Console.WriteLine($"[DEBUG] PartitionKey: {entity.PartitionKey}");
+                Console.WriteLine($"[DEBUG] RowKey: {entity.RowKey}");
+                
+                var response = await _tableClient.AddEntityAsync(entity);
+                Console.WriteLine($"[DEBUG] Entity added successfully. Status: {response.Status}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"[ERROR] Error adding entity: {ex.Message}");
+                if (ex.InnerException != null)
+                {
+                    Console.WriteLine($"[ERROR] Inner exception: {ex.InnerException.Message}");
+                }
+                throw;
+            }
         }
 
         public async Task UpdateEntityAsync<T>(T entity, ETag? etag = null) where T : ITableEntity
@@ -100,6 +138,11 @@ namespace ABC_Retail_System.Services.Storage
         public TableClient GetTableClient(string tableName)
         {
             return _tableClient;
+        }
+
+        internal string GetTableName()
+        {
+            return _tableClient.Name;
         }
     }
 }

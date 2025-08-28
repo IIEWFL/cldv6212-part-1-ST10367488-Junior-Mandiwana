@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\Maseo Junior\\Desktop\\cldv6212-part-1-ST10367488-Junior-Mandiwana\\ABC Retail System\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{72A3A142-8242-4F25-B4A9-BB7A9DB3A27F}|ABC Retail System.csproj|c:\\users\\maseo junior\\desktop\\cldv6212-part-1-st10367488-junior-mandiwana\\abc retail system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A3A142-8242-4F25-B4A9-BB7A9DB3A27F}|ABC Retail System.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A3A142-8242-4F25-B4A9-BB7A9DB3A27F}|ABC Retail System.csproj|c:\\users\\maseo junior\\desktop\\cldv6212-part-1-st10367488-junior-mandiwana\\abc retail system\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A3A142-8242-4F25-B4A9-BB7A9DB3A27F}|ABC Retail System.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A3A142-8242-4F25-B4A9-BB7A9DB3A27F}|ABC Retail System.csproj|c:\\users\\maseo junior\\desktop\\cldv6212-part-1-st10367488-junior-mandiwana\\abc retail system\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A3A142-8242-4F25-B4A9-BB7A9DB3A27F}|ABC Retail System.csproj|solutionrelative:services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A3A142-8242-4F25-B4A9-BB7A9DB3A27F}|ABC Retail System.csproj|c:\\users\\maseo junior\\desktop\\cldv6212-part-1-st10367488-junior-mandiwana\\abc retail system\\controllers\\queuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A3A142-8242-4F25-B4A9-BB7A9DB3A27F}|ABC Retail System.csproj|solutionrelative:controllers\\queuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A3A142-8242-4F25-B4A9-BB7A9DB3A27F}|ABC Retail System.csproj|c:\\users\\maseo junior\\desktop\\cldv6212-part-1-st10367488-junior-mandiwana\\abc retail system\\abc retail system.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{72A3A142-8242-4F25-B4A9-BB7A9DB3A27F}|ABC Retail System.csproj|solutionrelative:abc retail system.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A3A142-8242-4F25-B4A9-BB7A9DB3A27F}|ABC Retail System.csproj|c:\\users\\maseo junior\\desktop\\cldv6212-part-1-st10367488-junior-mandiwana\\abc retail system\\services\\queueloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A3A142-8242-4F25-B4A9-BB7A9DB3A27F}|ABC Retail System.csproj|solutionrelative:services\\queueloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A3A142-8242-4F25-B4A9-BB7A9DB3A27F}|ABC Retail System.csproj|c:\\users\\maseo junior\\desktop\\cldv6212-part-1-st10367488-junior-mandiwana\\abc retail system\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A3A142-8242-4F25-B4A9-BB7A9DB3A27F}|ABC Retail System.csproj|solutionrelative:services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{72A3A142-8242-4F25-B4A9-BB7A9DB3A27F}|ABC Retail System.csproj|c:\\users\\maseo junior\\desktop\\cldv6212-part-1-st10367488-junior-mandiwana\\abc retail system\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72A3A142-8242-4F25-B4A9-BB7A9DB3A27F}|ABC Retail System.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,14 +55,6 @@
       "RelativeMoniker": "D:0:0:{72A3A142-8242-4F25-B4A9-BB7A9DB3A27F}|ABC Retail System.csproj|solutionrelative:views\\queue\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72A3A142-8242-4F25-B4A9-BB7A9DB3A27F}|ABC Retail System.csproj|c:\\users\\maseo junior\\desktop\\cldv6212-part-1-st10367488-junior-mandiwana\\abc retail system\\services\\queueloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72A3A142-8242-4F25-B4A9-BB7A9DB3A27F}|ABC Retail System.csproj|solutionrelative:services\\queueloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72A3A142-8242-4F25-B4A9-BB7A9DB3A27F}|ABC Retail System.csproj|c:\\users\\maseo junior\\desktop\\cldv6212-part-1-st10367488-junior-mandiwana\\abc retail system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72A3A142-8242-4F25-B4A9-BB7A9DB3A27F}|ABC Retail System.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{72A3A142-8242-4F25-B4A9-BB7A9DB3A27F}|ABC Retail System.csproj|c:\\users\\maseo junior\\desktop\\cldv6212-part-1-st10367488-junior-mandiwana\\abc retail system\\services\\storage\\filesharestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72A3A142-8242-4F25-B4A9-BB7A9DB3A27F}|ABC Retail System.csproj|solutionrelative:services\\storage\\filesharestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -45,18 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{72A3A142-8242-4F25-B4A9-BB7A9DB3A27F}|ABC Retail System.csproj|c:\\users\\maseo junior\\desktop\\cldv6212-part-1-st10367488-junior-mandiwana\\abc retail system\\services\\storage\\queuestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72A3A142-8242-4F25-B4A9-BB7A9DB3A27F}|ABC Retail System.csproj|solutionrelative:services\\storage\\queuestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72A3A142-8242-4F25-B4A9-BB7A9DB3A27F}|ABC Retail System.csproj|c:\\users\\maseo junior\\desktop\\cldv6212-part-1-st10367488-junior-mandiwana\\abc retail system\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72A3A142-8242-4F25-B4A9-BB7A9DB3A27F}|ABC Retail System.csproj|solutionrelative:services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72A3A142-8242-4F25-B4A9-BB7A9DB3A27F}|ABC Retail System.csproj|c:\\users\\maseo junior\\desktop\\cldv6212-part-1-st10367488-junior-mandiwana\\abc retail system\\controllers\\queuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72A3A142-8242-4F25-B4A9-BB7A9DB3A27F}|ABC Retail System.csproj|solutionrelative:controllers\\queuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72A3A142-8242-4F25-B4A9-BB7A9DB3A27F}|ABC Retail System.csproj|c:\\users\\maseo junior\\desktop\\cldv6212-part-1-st10367488-junior-mandiwana\\abc retail system\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72A3A142-8242-4F25-B4A9-BB7A9DB3A27F}|ABC Retail System.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,24 +74,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "ABC Retail System",
+              "DocumentMoniker": "C:\\Users\\Maseo Junior\\Desktop\\cldv6212-part-1-ST10367488-Junior-Mandiwana\\ABC Retail System\\ABC Retail System.csproj",
+              "RelativeDocumentMoniker": "ABC Retail System.csproj",
+              "ToolTip": "C:\\Users\\Maseo Junior\\Desktop\\cldv6212-part-1-ST10367488-Junior-Mandiwana\\ABC Retail System\\ABC Retail System.csproj",
+              "RelativeToolTip": "ABC Retail System.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-28T20:58:08.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Maseo Junior\\Desktop\\cldv6212-part-1-ST10367488-Junior-Mandiwana\\ABC Retail System\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Maseo Junior\\Desktop\\cldv6212-part-1-ST10367488-Junior-Mandiwana\\ABC Retail System\\Services\\OrderService.cs",
+              "RelativeToolTip": "Services\\OrderService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAgwDMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T20:06:37.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\Maseo Junior\\Desktop\\cldv6212-part-1-ST10367488-Junior-Mandiwana\\ABC Retail System\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\Maseo Junior\\Desktop\\cldv6212-part-1-ST10367488-Junior-Mandiwana\\ABC Retail System\\Controllers\\OrderController.cs*",
-              "RelativeToolTip": "Controllers\\OrderController.cs*",
-              "ViewState": "AgIAAMsAAAAAAAAAAAAQwN0AAABMAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Maseo Junior\\Desktop\\cldv6212-part-1-ST10367488-Junior-Mandiwana\\ABC Retail System\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAAAAAPQAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T19:50:58.992Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Maseo Junior\\Desktop\\cldv6212-part-1-ST10367488-Junior-Mandiwana\\ABC Retail System\\Views\\Customer\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Customer\\Delete.cshtml",
@@ -91,12 +124,11 @@
               "RelativeToolTip": "Views\\Customer\\Delete.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-28T19:48:18.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T19:48:18.764Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Maseo Junior\\Desktop\\cldv6212-part-1-ST10367488-Junior-Mandiwana\\ABC Retail System\\Views\\Order\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Order\\Details.cshtml",
@@ -104,12 +136,11 @@
               "RelativeToolTip": "Views\\Order\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-28T19:37:23.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T19:37:23.224Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Maseo Junior\\Desktop\\cldv6212-part-1-ST10367488-Junior-Mandiwana\\ABC Retail System\\Views\\Order\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Order\\Edit.cshtml",
@@ -117,25 +148,24 @@
               "RelativeToolTip": "Views\\Order\\Edit.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-28T19:31:31.418Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T19:31:31.418Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "QueueLoggerService.cs",
               "DocumentMoniker": "C:\\Users\\Maseo Junior\\Desktop\\cldv6212-part-1-ST10367488-Junior-Mandiwana\\ABC Retail System\\Services\\QueueLoggerService.cs",
               "RelativeDocumentMoniker": "Services\\QueueLoggerService.cs",
               "ToolTip": "C:\\Users\\Maseo Junior\\Desktop\\cldv6212-part-1-ST10367488-Junior-Mandiwana\\ABC Retail System\\Services\\QueueLoggerService.cs",
               "RelativeToolTip": "Services\\QueueLoggerService.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAowE4AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T18:58:42.085Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "FileShareStorageService.cs",
               "DocumentMoniker": "C:\\Users\\Maseo Junior\\Desktop\\cldv6212-part-1-ST10367488-Junior-Mandiwana\\ABC Retail System\\Services\\Storage\\FileShareStorageService.cs",
               "RelativeDocumentMoniker": "Services\\Storage\\FileShareStorageService.cs",
@@ -143,12 +173,11 @@
               "RelativeToolTip": "Services\\Storage\\FileShareStorageService.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAowKAAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T18:08:27.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T18:08:27.29Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Maseo Junior\\Desktop\\cldv6212-part-1-ST10367488-Junior-Mandiwana\\ABC Retail System\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
@@ -161,33 +190,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 3,
               "Title": "QueueController.cs",
               "DocumentMoniker": "C:\\Users\\Maseo Junior\\Desktop\\cldv6212-part-1-ST10367488-Junior-Mandiwana\\ABC Retail System\\Controllers\\QueueController.cs",
               "RelativeDocumentMoniker": "Controllers\\QueueController.cs",
               "ToolTip": "C:\\Users\\Maseo Junior\\Desktop\\cldv6212-part-1-ST10367488-Junior-Mandiwana\\ABC Retail System\\Controllers\\QueueController.cs",
               "RelativeToolTip": "Controllers\\QueueController.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAowFwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwFwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T15:16:28.417Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Maseo Junior\\Desktop\\cldv6212-part-1-ST10367488-Junior-Mandiwana\\ABC Retail System\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Maseo Junior\\Desktop\\cldv6212-part-1-ST10367488-Junior-Mandiwana\\ABC Retail System\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAowE8AAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAcwEsAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T15:12:11.552Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Maseo Junior\\Desktop\\cldv6212-part-1-ST10367488-Junior-Mandiwana\\ABC Retail System\\Views\\Queue\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Queue\\Index.cshtml",
@@ -195,38 +224,37 @@
               "RelativeToolTip": "Views\\Queue\\Index.cshtml",
               "ViewState": "AgIAAHAAAAAAAAAAAAAkwIMAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-28T14:56:22.929Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T14:56:22.929Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 1,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\Maseo Junior\\Desktop\\cldv6212-part-1-ST10367488-Junior-Mandiwana\\ABC Retail System\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "Services\\ProductService.cs",
               "ToolTip": "C:\\Users\\Maseo Junior\\Desktop\\cldv6212-part-1-ST10367488-Junior-Mandiwana\\ABC Retail System\\Services\\ProductService.cs",
               "RelativeToolTip": "Services\\ProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T14:50:47.18Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "CustomerService.cs",
               "DocumentMoniker": "C:\\Users\\Maseo Junior\\Desktop\\cldv6212-part-1-ST10367488-Junior-Mandiwana\\ABC Retail System\\Services\\CustomerService.cs",
               "RelativeDocumentMoniker": "Services\\CustomerService.cs",
               "ToolTip": "C:\\Users\\Maseo Junior\\Desktop\\cldv6212-part-1-ST10367488-Junior-Mandiwana\\ABC Retail System\\Services\\CustomerService.cs",
               "RelativeToolTip": "Services\\CustomerService.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAswEwAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T14:50:44.251Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "CustomerController.cs",
               "DocumentMoniker": "C:\\Users\\Maseo Junior\\Desktop\\cldv6212-part-1-ST10367488-Junior-Mandiwana\\ABC Retail System\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
@@ -239,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "QueueStorageService.cs",
               "DocumentMoniker": "C:\\Users\\Maseo Junior\\Desktop\\cldv6212-part-1-ST10367488-Junior-Mandiwana\\ABC Retail System\\Services\\Storage\\QueueStorageService.cs",
               "RelativeDocumentMoniker": "Services\\Storage\\QueueStorageService.cs",
@@ -247,8 +275,7 @@
               "RelativeToolTip": "Services\\Storage\\QueueStorageService.cs",
               "ViewState": "AgIAAIoAAAAAAAAAAAAowKwAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T14:40:12.095Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T14:40:12.095Z"
             }
           ]
         }

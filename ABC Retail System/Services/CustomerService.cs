@@ -4,6 +4,7 @@ using Azure;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace ABC_Retail_System.Services
@@ -12,6 +13,7 @@ namespace ABC_Retail_System.Services
     {
         private readonly TableStorageService _tableStorage;
         private readonly QueueStorageService _queueStorage;
+        private const string TableName = "abcretail";
         private const string PartitionKey = "CUSTOMER";
         private const string QueueName = "customer-logs";
         
