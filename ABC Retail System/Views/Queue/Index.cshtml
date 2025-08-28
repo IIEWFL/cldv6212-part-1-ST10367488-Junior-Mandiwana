@@ -1,0 +1,261 @@
+@model List<string>
+@{
+    ViewData["Title"] = "Queue Messages";
+    var logs = ViewBag.Logs as List<string> ?? new List<string>();
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="mb-0">📦 Queue: product-logs</h2>
+        <a href="@Url.Action("Index")" class="btn btn-primary">
+            <i class="fas fa-sync-alt me-1"></i> Refresh
+        </a>
+    </div>
+
+    <!-- Queue status -->
+    <div class="alert alert-info">
+        <div class="d-flex justify-content-between">
+            <div>
+                <i class="fas fa-info-circle me-2"></i>
+                <strong>@(ViewBag.MessageCount ?? 0)</strong> messages in queue | 
+                <strong>@(ViewBag.Max ?? 10)</strong> showing
+            </div>
+            <small>Last updated: @DateTime.Now.ToString("HH:mm:ss")</small>
+        </div>
+    </div>
+
+    @if (ViewBag.Error != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <i class="fas fa-exclamation-triangle me-2"></i>
+            <strong>Error:</strong> @ViewBag.Error
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    @if (ViewBag.Info != null)
+    {
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <i class="fas fa-info-circle me-2"></i>
+            @ViewBag.Info
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <!-- Messages table -->
+    <div class="card mb-4">
+        <div class="card-header bg-light">
+            <h4 class="mb-0"><i class="fas fa-envelope me-2"></i>Messages</h4>
+        </div>
+        <div class="card-body p-0">
+            @if (Model != null && Model.Count > 0)
+            {
+                <div class="table-responsive">
+                    <table class="table table-hover mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th style="width: 60px;">#</th>
+                                <th>Timestamp</th>
+                                <th>Type</th>
+                                <th>Message</th>
+                                <th>Details</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (int i = 0; i < Model.Count; i++)
+                            {
+                                var message = Model[i];
+                                var isJson = message.Trim().StartsWith('{') && message.Trim().EndsWith('}');
+                                
+                                <tr>
+                                    <td class="text-muted">@(i + 1)</td>
+                                    <td>
+                                        @if (isJson)
+                                        {
+                                            try
+                                            {
+                                                var json = System.Text.Json.JsonDocument.Parse(message);
+                                                if (json.RootElement.TryGetProperty("Timestamp", out var timestamp))
+                                                {
+                                                    @timestamp
+                                                }
+                                            }
+                                            catch { }
+                                        }
+                                    </td>
+                                    <td>
+                                        @if (isJson)
+                                        {
+                                            try
+                                            {
+                                                var json = System.Text.Json.JsonDocument.Parse(message);
+                                                if (json.RootElement.TryGetProperty("Type", out var type))
+                                                {
+                                                    <span class="badge bg-primary">@type</span>
+                                                }
+                                            }
+                                            catch { }
+                                        }
+                                    </td>
+                                    <td>
+                                        @if (isJson)
+                                        {
+                                            try
+                                            {
+                                                var json = System.Text.Json.JsonDocument.Parse(message);
+                                                if (json.RootElement.TryGetProperty("Message", out var msg))
+                                                {
+                                                    @msg
+                                                }
+                                            }
+                                            catch { }
+                                        }
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-sm btn-outline-primary view-json" data-bs-toggle="modal" data-bs-target="#jsonModal" data-json='@message'>
+                                            <i class="fas fa-code"></i> View
+                                        </button>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+            else
+            {
+                <div class="p-4 text-center text-muted">
+                    <i class="fas fa-inbox fa-3x mb-3"></i>
+                    <p class="mb-0">No messages available in the queue</p>
+                </div>
+            }
+        </div>
+    </div>
+
+    <!-- JSON Modal -->
+    <div class="modal fade" id="jsonModal" tabindex="-1" aria-labelledby="jsonModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="jsonModalLabel">Message Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <pre class="mb-0"><code id="jsonContent" class="language-json"></code></pre>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="copyJson">
+                        <i class="far fa-copy me-1"></i> Copy
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Logs section -->
+    <div class="card">
+        <div class="card-header bg-light d-flex justify-content-between align-items-center">
+            <h4 class="mb-0"><i class="fas fa-terminal me-2"></i>Activity Logs</h4>
+            <span class="badge bg-secondary">@logs.Count</span>
+        </div>
+        <div class="card-body p-0">
+            <div class="list-group list-group-flush" style="max-height: 250px; overflow-y: auto;">
+                @if (logs.Any())
+                {
+                    foreach (var log in logs)
+                    {
+                        var isError = log.Contains("Error", StringComparison.OrdinalIgnoreCase);
+                        <div class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <span class="@(isError ? "text-danger" : "text-muted") mb-1">
+                                    @if (isError)
+                                    {
+                                        <i class="fas fa-exclamation-circle me-2"></i>
+                                    }
+                                    @log
+                                </span>
+                                <small class="text-muted">@DateTime.Now.ToString("HH:mm:ss")</small>
+                            </div>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <div class="p-4 text-center text-muted">
+                        <i class="fas fa-info-circle me-2"></i> No activity logs available
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism-tomorrow.min.css" rel="stylesheet" />
+    <style>
+        .table th { white-space: nowrap; }
+        pre { margin: 0; background: #1e1e1e; padding: 1rem; border-radius: 4px; }
+        .card { border: none; box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); }
+        .card-header { border-bottom: 1px solid rgba(0, 0, 0, 0.05); }
+        .list-group-item { border-left: none; border-right: none; }
+        .list-group-item:first-child { border-top: none; }
+        .list-group-item:last-child { border-bottom: none; }
+    </style>
+}
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/plugins/autoloader/prism-autoloader.min.js"></script>
+    
+    <script>
+        // Initialize JSON viewer modal
+        const jsonModal = document.getElementById('jsonModal');
+        if (jsonModal) {
+            jsonModal.addEventListener('show.bs.modal', function (event) {
+                const button = event.relatedTarget;
+                const jsonString = button.getAttribute('data-json');
+                const modalBody = jsonModal.querySelector('#jsonContent');
+                
+                try {
+                    const json = JSON.parse(jsonString);
+                    modalBody.textContent = JSON.stringify(json, null, 2);
+                } catch (e) {
+                    modalBody.textContent = jsonString;
+                }
+                
+                // Re-highlight the code
+                if (typeof Prism !== 'undefined') {
+                    Prism.highlightElement(modalBody);
+                }
+            });
+        }
+
+        // Copy to clipboard functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const copyButton = document.getElementById('copyJson');
+            if (copyButton) {
+                copyButton.addEventListener('click', function() {
+                    const jsonContent = document.getElementById('jsonContent');
+                    if (jsonContent) {
+                        navigator.clipboard.writeText(jsonContent.textContent).then(function() {
+                            const originalText = copyButton.innerHTML;
+                            copyButton.innerHTML = '<i class="fas fa-check me-1"></i> Copied!';
+                            setTimeout(function() {
+                                copyButton.innerHTML = originalText;
+                            }, 2000);
+                        }).catch(function(err) {
+                            console.error('Failed to copy text: ', err);
+                        });
+                    }
+                });
+            }
+            
+            // Auto-scroll logs to bottom
+            const logsContainer = document.querySelector('.list-group');
+            if (logsContainer) {
+                logsContainer.scrollTop = logsContainer.scrollHeight;
+            }
+        });
+    </script>
+}

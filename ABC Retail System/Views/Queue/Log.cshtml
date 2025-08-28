@@ -1,0 +1,16 @@
+@model List<string>
+@{
+    ViewData["Title"] = "Queue Messages";
+}
+<h2>Inventory/Order Queue (peek)</h2>
+<p class="text-muted">Non-destructive peek of the last messages sent by product actions.</p>
+
+<table class="table">
+    <thead><tr><th>#</th><th>Message (JSON)</th></tr></thead>
+    <tbody>
+        @for (int i = 0; i < Model.Count; i++)
+        {
+            <tr><td>@(i + 1)</td><td><pre>@Model[i]</pre></td></tr>
+        }
+    </tbody>
+</table>

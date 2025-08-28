@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "d33zzKZ5g1k=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Maseo Junior\\Desktop\\cldv6212-part-1-ST10367488-Junior-Mandiwana\\ABC Retail System\\ABC Retail System.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Maseo Junior\\.nuget\\packages\\azure.core\\1.44.1\\azure.core.1.44.1.nupkg.sha512",
+    "C:\\Users\\Maseo Junior\\.nuget\\packages\\azure.data.tables\\12.11.0\\azure.data.tables.12.11.0.nupkg.sha512",
+    "C:\\Users\\Maseo Junior\\.nuget\\packages\\azure.storage.blobs\\12.25.0\\azure.storage.blobs.12.25.0.nupkg.sha512",
+    "C:\\Users\\Maseo Junior\\.nuget\\packages\\azure.storage.common\\12.24.0\\azure.storage.common.12.24.0.nupkg.sha512",
+    "C:\\Users\\Maseo Junior\\.nuget\\packages\\azure.storage.files.shares\\12.23.0\\azure.storage.files.shares.12.23.0.nupkg.sha512",
+    "C:\\Users\\Maseo Junior\\.nuget\\packages\\azure.storage.queues\\12.23.0\\azure.storage.queues.12.23.0.nupkg.sha512",
+    "C:\\Users\\Maseo Junior\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "C:\\Users\\Maseo Junior\\.nuget\\packages\\system.clientmodel\\1.1.0\\system.clientmodel.1.1.0.nupkg.sha512",
+    "C:\\Users\\Maseo Junior\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
+    "C:\\Users\\Maseo Junior\\.nuget\\packages\\system.io.hashing\\8.0.0\\system.io.hashing.8.0.0.nupkg.sha512",
+    "C:\\Users\\Maseo Junior\\.nuget\\packages\\system.memory.data\\6.0.0\\system.memory.data.6.0.0.nupkg.sha512",
+    "C:\\Users\\Maseo Junior\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Maseo Junior\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Maseo Junior\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\Maseo Junior\\.nuget\\packages\\system.text.json\\6.0.10\\system.text.json.6.0.10.nupkg.sha512",
+    "C:\\Users\\Maseo Junior\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}

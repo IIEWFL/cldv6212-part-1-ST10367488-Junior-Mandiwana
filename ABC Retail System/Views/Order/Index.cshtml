@@ -1,0 +1,84 @@
+@model IEnumerable<ABC_Retail_System.Models.Order>
+
+@{
+    ViewData["Title"] = "Orders";
+}
+
+<h2>Orders</h2>
+
+<a class="btn btn-primary mb-3" asp-action="Create">Create New Order</a>
+
+<div class="table-responsive">
+    <table class="table align-middle">
+        <thead class="table-light">
+            <tr>
+                <th>Customer</th>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model == null || !Model.Any())
+            {
+                <tr>
+                    <td colspan="5" class="text-center text-muted">No orders found. Click "Create New Order" to add one.</td>
+                </tr>
+            }
+            else
+            {
+                foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.CustomerName</td>
+                        <td>@item.ProductName</td>
+                        <td>@item.Quantity</td>
+                        <td>
+                            <span class="badge @GetStatusBadgeClass(item.Status)">@item.Status</span>
+                        </td>
+                        <td style="white-space:nowrap">
+                            <a class="btn btn-sm btn-outline-secondary" asp-action="Details" asp-route-id="@item.RowKey">Details</a>
+                            <a class="btn btn-sm btn-primary" asp-action="Edit" asp-route-id="@item.RowKey">Edit</a>
+                            <a class="btn btn-sm btn-danger" asp-route-id="@item.RowKey">Delete</a>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
+
+@functions {
+    string GetStatusBadgeClass(string status)
+    {
+        return status?.ToLower() switch
+        {
+            "processed" => "bg-success",
+            "cancelled" => "bg-danger",
+            "shipped" => "bg-info",
+            "delivered" => "bg-primary",
+            _ => "bg-warning text-dark",
+        };
+    }
+}
+
+<style>
+    .badge {
+        padding: 0.5em 0.75em;
+        font-weight: 500;
+        border-radius: 0.25rem;
+    }
+    
+    .table th {
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        letter-spacing: 0.5px;
+    }
+    
+    .btn-sm {
+        padding: 0.25rem 0.5rem;
+        font-size: 0.8rem;
+    }
+</style>

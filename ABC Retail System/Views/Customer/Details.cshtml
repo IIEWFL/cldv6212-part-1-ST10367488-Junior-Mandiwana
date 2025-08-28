@@ -1,0 +1,103 @@
+@model ABC_Retail_System.Models.Customer
+
+@{
+    ViewData["Title"] = "Customer Details";
+}
+
+@if (ViewData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @ViewData["ErrorMessage"]
+    </div>
+}
+
+@if (Model != null)
+{
+    <div class="card">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">
+                <i class="fas fa-user-circle me-2"></i>@Model.FullName
+            </h4>
+        </div>
+        <div class="card-body">
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <h5 class="text-muted">Contact Information</h5>
+                    <hr class="mt-1 mb-3" />
+                    <p>
+                        <strong><i class="fas fa-envelope me-2"></i>Email:</strong><br />
+                        @if (!string.IsNullOrEmpty(Model.Email))
+                        {
+                            <a href="mailto:@Model.Email" class="text-decoration-none">@Model.Email</a>
+                        }
+                        else
+                        {
+                            <span class="text-muted">Not provided</span>
+                        }
+                    </p>
+                    <p>
+                        <strong><i class="fas fa-phone me-2"></i>Phone:</strong><br />
+                        @if (!string.IsNullOrEmpty(Model.PhoneNumber))
+                        {
+                            <a href="tel:@Model.PhoneNumber" class="text-decoration-none">@Model.PhoneNumber</a>
+                        }
+                        else
+                        {
+                            <span class="text-muted">Not provided</span>
+                        }
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="text-muted">Address</h5>
+                    <hr class="mt-1 mb-3" />
+                    <p>
+                        @if (!string.IsNullOrEmpty(Model.Address))
+                        {
+                            @Model.Address
+                        }
+                        else
+                        {
+                            <span class="text-muted">Not provided</span>
+                        }
+                    </p>
+                </div>
+            </div>
+            
+            <div class="alert alert-info">
+                <i class="fas fa-info-circle me-2"></i>
+                Customer ID: <code>@Model.RowKey</code>
+                <span class="ms-3">
+                    <i class="fas fa-calendar-alt me-1"></i> 
+                    Created: @Model.Timestamp?.ToString("g") 
+                </span>
+            </div>
+        </div>
+        <div class="card-footer bg-light">
+            <div class="d-flex justify-content-between">
+                <a asp-action="Index" class="btn btn-outline-secondary">
+                    <i class="fas fa-arrow-left me-1"></i> Back to List
+                </a>
+                <div class="btn-group">
+                    <a asp-action="Edit" asp-route-id="@Model.RowKey" class="btn btn-primary">
+                        <i class="fas fa-edit me-1"></i> Edit
+                    </a>
+                    <a asp-action="Delete" asp-route-id="@Model.RowKey" class="btn btn-danger">
+                        <i class="fas fa-trash-alt me-1"></i> Delete
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <div class="alert alert-warning">
+        <i class="fas fa-exclamation-triangle me-2"></i>
+        Customer not found or an error occurred while loading customer details.
+    </div>
+    <div>
+        <a asp-action="Index" class="btn btn-outline-primary">
+            <i class="fas fa-arrow-left me-1"></i> Back to Customers
+        </a>
+    </div>
+}

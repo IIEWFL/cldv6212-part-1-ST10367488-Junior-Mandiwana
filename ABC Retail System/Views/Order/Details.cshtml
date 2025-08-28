@@ -1,0 +1,38 @@
+@model ABC_Retail_System.Models.Order
+@{
+    ViewData["Title"] = "Order Details";
+}
+
+<div class="card">
+    <div class="card-header">
+        <h2>Order Details</h2>
+    </div>
+    <div class="card-body">
+        <dl class="row">
+           
+            <dt class="col-sm-3">Customer</dt>
+            <dd class="col-sm-9">@Model.CustomerName</dd>
+
+            <dt class="col-sm-3">Product</dt>
+            <dd class="col-sm-9">@Model.ProductName</dd>
+
+            <dt class="col-sm-3">Quantity</dt>
+            <dd class="col-sm-9">@Model.Quantity</dd>
+
+            <dt class="col-sm-3">Status</dt>
+            <dd class="col-sm-9">
+                <span class="badge @(Model.Status == "Completed" ? "bg-success" : "bg-warning")">
+                    @Model.Status
+                </span>
+            </dd>
+
+            <dt class="col-sm-3">Order Date</dt>
+            <dd class="col-sm-9">@Model.Timestamp?.LocalDateTime.ToString("f")</dd>
+        </dl>
+    </div>
+    <div class="card-footer">
+        <a asp-action="Edit" asp-route-id="@Model.RowKey" class="btn btn-primary">Edit</a>
+        <a asp-action="Delete" asp-route-id="@Model.RowKey" class="btn btn-danger">Delete</a>
+        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    </div>
+</div>
